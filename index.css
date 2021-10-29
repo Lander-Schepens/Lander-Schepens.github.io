@@ -1,0 +1,153 @@
+@font-face {
+    font-family: NettoOT;
+    src: url("../design/NettoOT.otf");
+}
+
+
+body{
+    display:flex;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+    font-family: 'NettoOT';
+    overflow-x: hidden;
+}
+
+.titel-container{
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    background-color:#2490D6;
+    height: 10vh;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    width: 100vw;
+    flex-wrap: wrap;
+    align-items: center;
+    /* border-bottom: 0.3vh solid white; */
+    height: 7vh;
+    margin: 0;
+    background-color:#2490D6;
+    border-bottom: 0.3vh solid white;
+}
+
+hr{
+    margin-top: 3vh;
+    height: 0.3vh;
+    background-color: white;
+}
+.navbar li{
+    list-style-type: none;
+    display: inline;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+    margin-left: 1vw;
+    transition: all 0.2s ease-in-out;
+    font-size: 1rem;
+}
+
+.navbar a:hover{
+    text-decoration: none;
+    border-bottom: 0.3vh solid #E8EB0C;
+    transition: all 0.2s ease-in-out;
+}
+
+.navbar img{
+    margin-right: 2vw;
+    height: 5vh;
+    width: auto;
+    
+}
+
+h1{
+    color: white;
+    font-weight: 400;
+    margin-left: 2vw;
+    transition: all 1s ease-in-out;
+} 
+
+h1:hover{
+    color:#E8EB0C;
+    transition: all 1s ease-in-out;
+}
+
+.IT-Consultancy-row{
+    display: flex;
+    align-items: center;
+   height: 50vh;
+   width: 100vw;
+}
+
+#IC_C1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    height: 40vh;
+}
+
+#IC_C1 img{
+
+    height: 35vh;
+    width: auto;
+}
+#IC_C2{
+    width: 50vw;
+    height: 40vh;
+}
+p{
+    color: #6B6B6B;
+    max-width: 30vw;
+    margin-left: 5vw;
+}
+
+#IC_C2 a{
+    display: block;
+    width: fit-content;
+    border:0.15rem solid #2490D6;
+    padding: 0.3rem 1rem;
+    text-decoration: none;
+    color: #2490D6;
+    margin-left: 5vw;
+    margin-top: 5vh;
+    transition: all 0.3s ease-in-out;
+}
+
+#IC_C2 a:hover{
+    color: #E8EB0C;
+    border:0.15rem solid #E8EB0C;
+    transition: all 0.3s ease-in-out;
+}
+h2{
+    color: #2490D6;
+    font-weight: 500;
+    margin-left: 5vw;
+    border-bottom: 4px solid yellow;
+}
+
+.Services-row{
+    background-color:#2490D6;
+    height: 50vh;
+    width: 100vw;
+}
+
+.S_C1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    height: 50vh;
+    background-color: red;
+}
+
+/* .S_C1 h2{
+    color: white;
+    border-bottom: 0.1rem solid #E8EB0C;
+    width: 100vw;
+} */
