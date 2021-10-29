@@ -5,7 +5,7 @@
 
 
 body{
-    display:flex;
+    /* display:flex; */
     margin: 0;
     padding: 0;
     flex-wrap: wrap;
@@ -31,14 +31,9 @@ body{
     height: 7vh;
     margin: 0;
     background-color:#2490D6;
-    border-bottom: 0.3vh solid white;
+    border-bottom: 0.5vh solid white;
 }
 
-hr{
-    margin-top: 3vh;
-    height: 0.3vh;
-    background-color: white;
-}
 .navbar li{
     list-style-type: none;
     display: inline;
@@ -128,26 +123,74 @@ h2{
     color: #2490D6;
     font-weight: 500;
     margin-left: 5vw;
-    border-bottom: 4px solid yellow;
 }
-
+#IC_C2 h2:hover{
+    width: fit-content;
+    border-bottom: 0.1rem solid #E8EB0C;
+}
 .Services-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color:#2490D6;
     height: 50vh;
     width: 100vw;
 }
 
 .S_C1{
+    width: 30vw;
+    height: 30vh;
+    
+}
+
+.S_C1 h2{
+    color: white;
+    border-bottom: 0.1rem solid #E8EB0C;
+    width: fit-content
+}
+
+.S_C1 p{
+    color: white;
+}
+
+.button{
+    display: block;
+    border-radius: 5px;
+    border: 0.15rem solid white;
+    width: fit-content;
+    text-decoration: none;
+    color: white;
+    padding: 0.3rem 1rem;
+    margin-left: 2vw;
+    font-weight: 400;
+    transition: all 0.3s ease-in-out;
+}
+
+#linkseButton{
+    margin-left: 5vw;
+}
+.button:hover{
+    border: 0.15rem solid #E8EB0C;
+    color: #E8EB0C;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.container{
+    margin-top: 5vh;
+    display: flex;
+    justify-content: left;
+}
+
+.S_C2{
+    width: 50vw;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50vw;
-    height: 50vh;
-    background-color: red;
+    height: 40vh;
 }
-
-/* .S_C1 h2{
-    color: white;
-    border-bottom: 0.1rem solid #E8EB0C;
-    width: 100vw;
-} */
+    
+.S_C2 img{
+        height: 35vh;
+        width: auto;
+    }
