@@ -8,7 +8,6 @@ body{
     /* display:flex; */
     margin: 0;
     padding: 0;
-    flex-wrap: wrap;
     font-family: 'NettoOT';
     overflow-x: hidden;
 }
@@ -194,3 +193,45 @@ h2{
         height: 35vh;
         width: auto;
     }
+
+.ROW3{
+    align-items: center;
+    display: flex;
+    height: 50vh;
+}
+
+.ROW3_C1{
+    height:30vh;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ROW3_C1 img{
+    height: 35vh;
+    width: auto;
+}
+
+.ROW_C2{
+    height: 30vh;
+    width: 50vw;
+}
+
+.footer{
+    background-color:#2490D6 ;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer img{
+    margin-left: 5vw;
+    height: 5vh;
+    width: auto;
+}
+
+.footer p{
+    color: white;
+}

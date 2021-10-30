@@ -1,0 +1,102 @@
+@font-face {
+    font-family: NettoOT;
+    src: url("../design/NettoOT.otf");
+}
+
+body{
+    max-width: 100vw;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'NettoOT'  !important;
+}
+
+.lanworks-titel-container{
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    background-color:#2490D6;
+    height: 10vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'NettoOT' !important;
+}
+
+.navbar1{
+    display: flex;
+    width: 100vw;
+    flex-wrap: wrap;
+    align-items: center;
+    /* border-bottom: 0.3vh solid white; */
+    height: 7vh;
+    margin: 0;
+    background-color:#2490D6;
+    border-bottom: 0.5vh solid white;
+}
+
+
+.navbar1 li{
+    list-style-type: none;
+    display: inline;
+}
+
+.navbar1 a{
+    text-decoration: none;
+    color: white;
+    margin-left: 1vw;
+    transition: all 0.2s ease-in-out;
+    font-size: 1rem;
+}
+
+.navbar1 a:hover{
+    text-decoration: none;
+    border-bottom: 0.3vh solid #E8EB0C;
+    transition: all 0.2s ease-in-out;
+}
+
+.navbar1 img{
+    margin-right: 2vw;
+    height: 5vh;
+    width: auto;
+    
+}
+.LanworksTitel{
+    color: white;
+    font-weight: 400;
+    margin-left: 2vw;
+    transition: all 1s ease-in-out;
+} 
+
+.lanworksTitel:hover{
+    color:#E8EB0C;
+    transition: all 1s ease-in-out;
+}
+
+.knopDrukken{
+    background-color:#2490D6;
+    color: white;
+    border: none;
+    border-radius: 5%;
+    font-family: 'NettoOT';
+    padding: 0.4rem;
+}
+
+.footerLanworks{
+    background-color:#2490D6 ;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.LanworksLogo{
+    margin-left: 5vw;
+    height: 5vh;
+    width: auto;
+}
+
+.tekstFooterLanworks{
+    color: white;
+    margin-left: 5vw;
+}
+
