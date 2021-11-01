@@ -74,6 +74,8 @@ h1:hover{
 .IT-Consultancy-row{
     display: flex;
     align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
    height: 50vh;
    width: 100vw;
 }
@@ -87,9 +89,10 @@ h1:hover{
 }
 
 #IC_C1 img{
-
-    height: 35vh;
     width: auto;
+    height: 30vh;
+    margin: 0;
+    padding: 0;
 }
 #IC_C2{
     width: 50vw;
@@ -131,6 +134,7 @@ h2{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap:wrap;
     background-color:#2490D6;
     height: 50vh;
     width: 100vw;
@@ -161,6 +165,7 @@ h2{
     color: white;
     padding: 0.3rem 1rem;
     margin-left: 2vw;
+    margin-bottom: 2vh;
     font-weight: 400;
     transition: all 0.3s ease-in-out;
 }
@@ -179,6 +184,7 @@ h2{
     margin-top: 5vh;
     display: flex;
     justify-content: left;
+    flex-wrap: wrap;
 }
 
 .S_C2{
@@ -234,4 +240,122 @@ h2{
 
 .footer p{
     color: white;
+}
+
+.leftAligned{
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.rightAligned{
+    display: flex;
+    width: 40vw;
+    align-items: center;
+    justify-content: flex-end;
+}
+#bars{
+display: none;
+ margin-left: auto;   
+}
+
+/** RESPONSIVE CSS **/ 
+
+@media screen and (max-width: 800px) {
+    .body{
+        max-width: 100vw;
+    }
+    #IC_C1{
+        width: 100vw;
+    }
+    #IC_C2{
+        width: 100vw;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        height: calc(fit-content+3vh);
+        text-align: center;
+    }
+
+    h2{
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+    }
+    #linkseButton{
+        margin-left: auto;
+        margin-bottom: 2vh;
+    }
+
+    p{
+        width: 75vw;
+        max-width: 100vw;
+        margin: 0;
+        padding: 0;
+    }
+    .IT-Consultancy-row{
+        height: fit-content;
+    }
+
+    .Services-row{
+        height: fit-content;
+    }
+    .S_C1{
+        width: 100vw;
+        text-align: center;
+    }
+    .button{
+        width: 51vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #ontdek{
+        min-width: 70vw;
+    }
+    .S_C1 h2{
+    margin-top: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+     border-bottom: none;
+    }
+    .S_C1 p{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3vh;
+    }
+    .S_C2{
+        margin-top: 10vh;
+        width: 100vw;
+        height: calc(fit-content+10vh);
+    }
+
+    .ROW3{
+        height: fit-content;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+    .ROW3_C2{
+        margin-bottom: 5vh;
+    }
+    .ROW3_C2 p{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3vh;
+    }
+
+    #bars{
+        display: inherit;
+    }
+
+    .leftAligned li{
+        display: none;
+    }
+
+    .footer p{
+        font-size: 0.75rem;
+    }
 }
