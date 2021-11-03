@@ -15,6 +15,7 @@ body{
 .titel-container{
     display: flex;
     align-items: center;
+    justify-content: center;
     width: 100vw;
     background-color:#2490D6;
     height: 10vh;
@@ -30,7 +31,7 @@ body{
     height: 7vh;
     margin: 0;
     background-color:#2490D6;
-    border-bottom: 0.5vh solid white;
+    border-bottom: 0.25vh solid white;
 }
 
 .navbar li{
@@ -48,7 +49,7 @@ body{
 
 .navbar a:hover{
     text-decoration: none;
-    border-bottom: 0.3vh solid #E8EB0C;
+    border-bottom: 0.3vh solid #f0e912;
     transition: all 0.2s ease-in-out;
 }
 
@@ -84,7 +85,7 @@ h1:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50vw;
+    width: 40vw;
     height: 40vh;
 }
 
@@ -95,7 +96,7 @@ h1:hover{
     padding: 0;
 }
 #IC_C2{
-    width: 50vw;
+    width: 40vw;
     height: 40vh;
 }
 p{
@@ -124,6 +125,8 @@ p{
 h2{
     color: #2490D6;
     font-weight: 500;
+}
+#IC_C2 h2{
     margin-left: 5vw;
 }
 #IC_C2 h2:hover{
@@ -141,18 +144,21 @@ h2{
 }
 
 .S_C1{
-    width: 30vw;
+    width: 40vw;
     height: 30vh;
-    
+    text-align: center;
 }
 
 .S_C1 h2{
+    margin: auto;
     color: white;
     border-bottom: 0.1rem solid #E8EB0C;
     width: fit-content
 }
 
 .S_C1 p{
+    margin-left: auto;
+    margin-right: auto;
     color: white;
 }
 
@@ -164,14 +170,13 @@ h2{
     text-decoration: none;
     color: white;
     padding: 0.3rem 1rem;
-    margin-left: 2vw;
-    margin-bottom: 2vh;
+    margin: 0.5rem;
     font-weight: 400;
     transition: all 0.3s ease-in-out;
 }
 
 #linkseButton{
-    margin-left: 5vw;
+    /* margin-left: 5vw; */
 }
 .button:hover{
     border: 0.15rem solid #E8EB0C;
@@ -183,35 +188,41 @@ h2{
 .container{
     margin-top: 5vh;
     display: flex;
-    justify-content: left;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .S_C2{
-    width: 50vw;
+    width: 40vw;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 40vh;
+    flex-wrap: wrap;
+    height: 30vh;
 }
     
 .S_C2 img{
-        height: 35vh;
+        height: 30vh;
         width: auto;
     }
 
 .ROW3{
     align-items: center;
+    justify-content: center;
     display: flex;
     height: 50vh;
 }
 
 .ROW3_C1{
     height:30vh;
-    width: 50vw;
+    width: 40vw;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.ROW3_C2 h2{
+    margin-left: 5vw;
 }
 
 .ROW3_C1 img{
@@ -221,7 +232,7 @@ h2{
 
 .ROW_C2{
     height: 30vh;
-    width: 50vw;
+    width: 40vw;
 }
 
 .footer{
@@ -329,7 +340,7 @@ display: none;
     .S_C2{
         margin-top: 10vh;
         width: 100vw;
-        height: calc(fit-content+10vh);
+        height: 60vh;
     }
 
     .ROW3{
@@ -349,6 +360,7 @@ display: none;
 
     #bars{
         display: inherit;
+        margin-right: 5vw;
     }
 
     .leftAligned li{
@@ -357,5 +369,11 @@ display: none;
 
     .footer p{
         font-size: 0.75rem;
+    }
+
+    .responsiveImg{
+        width: 50vw;
+        height: auto;
+        margin: 1rem;
     }
 }
