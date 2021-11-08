@@ -8,15 +8,16 @@ body{
     /* display:flex; */
     margin: 0;
     padding: 0;
+    max-width: 100%;
     font-family: 'NettoOT';
     overflow-x: hidden;
+    position: relative;
 }
 
 .titel-container{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100vw;
     background-color:#2490D6;
     height: 10vh;
     margin: 0;
@@ -25,6 +26,7 @@ body{
 .navbar{
     display: flex;
     width: 100vw;
+    max-width: 100vw;
     flex-wrap: wrap;
     align-items: center;
     /* border-bottom: 0.3vh solid white; */
@@ -82,11 +84,7 @@ h1:hover{
 }
 
 #logo1{
-    transition: opacity 4s ease-out;
-    -webkit-transition: opacity 4s ease-out;
-    -moz-transition: opacity 4s ease-out;
-    -ms-transition: opacity 4s ease-out;
-    -o-transition: opacity 4s ease-out;
+
 }
 
 #IC_C1{
