@@ -12,11 +12,19 @@
     <link rel="stylesheet" href="contactus.css">
 </head>
 <body>
-    <ul class="navbar1">
-        <img id="logoLanworks" src="../images/logo1Lanworks.png" alt="Logo">
-        <li><a class="linkLanworks" href="/index.html">Home</a></li>
-        <li><a class="linkLanworks" href="/contactus.html">Contact Us</a></li>
-    </ul>
+	<ul class="navbar" id="navbar">
+		<div class="leftAligned" id="leftAligned">
+		<img src="../images/logo1Lanworks.png" alt="Logo">
+		<li id="linksLink1"><a href="/index.html" id="linksLinkA">Home</a></li>
+		<li id="linksLink2"><a href="/contactus.html" id="linksLinkB">Contact Us</a></li>
+		</div>
+	
+		<div class="rightAligned">
+		<li><img src="../images/bars.png" id="bars" alt=""></li>
+		</div>
+	</ul>
+
+
     <div class="lanworks-titel-container">
         <h1 class="LanworksTitel">Lanworks IT Solutions.</h1>
     </div> 
@@ -118,5 +126,8 @@
         <p class="tekstFooterLanworks">Lanworks IT Consultancy & Services</p>
         <p class="tekstFooterLanworks">info@lanworks.be</p>
     </div>
+
+	
+<script src="./responsiveNavbar.js"></script>
 </body>
 </html>
