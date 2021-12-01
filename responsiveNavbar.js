@@ -14,6 +14,7 @@ bars.onclick = function(){
         navbar.style.alignItems='center';
         linksLink1.style.display='none';
         linksLink2.style.display='none';
+        linksLink3.style.display='none';
     } else {
         navbar.style.transition='all 0.2s ease-in-out';
         navbar.style.height='30vh';
@@ -23,6 +24,7 @@ bars.onclick = function(){
         linksLink3.style.display='inherit';
         linksLink1.style.width='51vw';
         linksLink2.style.width="51vw";
+        linksLink3.style.width="51vw";
         link1.style.fontSize='1.5rem';
         link1.style.marginTop='2vh';
         link2.style.fontSize='1.5rem';
