@@ -31,6 +31,9 @@ body{
     border-radius: 20px;
     border: solid #2490D6 0.3rem;
 }
+.parent:hover{
+    border: solid #E8EB0C 0.35rem;
+}
 .imageWrapper{
     margin: 0;
     display: flex;
