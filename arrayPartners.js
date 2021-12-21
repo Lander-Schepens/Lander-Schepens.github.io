@@ -1,10 +1,10 @@
 export const arrayPartners = [
     {
-    "image" : "https://cdn.icon-icons.com/icons2/2699/PNG/512/microsoft_azure_logo_icon_168977.png",
-    "link" : "https://www.microsoft.com",
+    "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Playstation_logo_colour.svg/1009px-Playstation_logo_colour.svg.png",
+    "link" : "https://www.playstation.com",
     },
     {
-        "image" : "https://cdn.icon-icons.com/icons2/2699/PNG/512/microsoft_azure_logo_icon_168977.png",
-        "link" : "",  
+        "image" : "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Playstation_logo_colour.svg/1009px-Playstation_logo_colour.svg.png",
+        "link" : "#",  
     }
 ]
