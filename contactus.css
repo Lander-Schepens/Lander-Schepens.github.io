@@ -138,6 +138,9 @@ body{
     color: white;
     margin-left: 5vw;
 }
+#bars{
+    display: none;
+}
 
 @media screen and (max-width: 800px) {
     #bars{
